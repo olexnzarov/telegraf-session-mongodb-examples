@@ -1,0 +1,16 @@
+{
+  "name": "telegraf-session-mongodb-example",
+  "version": "1.0.0",
+  "description": "Example of 'telegraf-session-mongodb' usage",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.4",
+    "telegraf": "^4.1.1",
+    "telegraf-session-mongodb": "^2.0.0"
+  }
+}
